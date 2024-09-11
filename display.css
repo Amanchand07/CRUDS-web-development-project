@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    /* margin: 100px; */
+    gap:50px;
+    background-color: #9892cd;
+    width: 100vw;
+    height: 100vh;
+}
+.btn-add{
+    background-color: antiquewhite;
+    font-size: 2rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 10px;
+    padding: 3px;
+}
+a{
+    /* color: cadetblue; */
+    color:white;
+    text-decoration: none;
+}
+.tablee{
+    font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;  
+    padding: 20px;
+    border: 2px none black;
+    background-color: #EEF7FF;
+    margin:10px;
+    border-radius: 10px;
+}
+table td{
+    padding: 20px;
+    background-color: #EEEEEE;
+}
+.updel{
+    width: 100%;
+    background-color: #4caf5b;
+    padding: 4px 2px;
+    margin: 2px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.updel:hover{
+    background-color: #454ca0;
+}
+h1 a{
+    color: #af4c5b;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.btn-add a{
+    color: #4CAF50;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
